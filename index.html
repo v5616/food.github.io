@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fire Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1300px)"
+      href="phone.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <navbar id="navbar">
+      <div id="logo">
+        <img src="logo.png" alt="logo" />
+      </div>
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#clients">Clients</a></li>
+        <li class="item"><a href="#services">Services</a></li>
+        <li class="item"><a href="#contact">Contact Us</a></li>
+      </ul>
+    </navbar>
+    <section id="home">
+      <h1 class="primary">Welcome to my online meal</h1>
+      <p>
+        If more of us valued food and cheer and song above hoarded gold, it
+        would be a merrier world
+      </p>
+      <p>
+        One cannot think well, love well, sleep well, if one has not dined well
+      </p>
+      <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+      <h1 class="h-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="pizza.jpg" alt="pizza" />
+          <h2 class="h-secondary center">Food Odering</h2>
+          <p class="centre">
+            After a good dinner one can forgive anybody, even one's own
+            relations
+          </p>
+        </div>
+        <div class="box">
+          <img src="tostitos.jpg" alt="pizza" />
+          <h2 class="h-secondary center">Food Catering</h2>
+          <p class="centre">
+            There are people in the world so hungry, that God cannot appear to
+            them except in the form of bread
+          </p>
+        </div>
+        <div class="box">
+          <img src="man-6051503_1280.png" alt="pizza" />
+          <h2 class="h-secondary center">Bulk Odering</h2>
+          <p class="centre">
+            Popcorn for breakfast! Why not? It's a grain. It's like, like,
+            grits, but with high self-esteem.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h1 class="h-primary center">Our Clients</h1>
+      <div id="clients">
+        <div class="client-items">
+          <img src="apple.jpg" alt="client" />
+        </div>
+        <div class="client-items">
+          <img src="hp.png" alt="client" />
+        </div>
+        <div class="client-items">
+          <img src="microsoft.png" alt="client" />
+        </div>
+        <div class="client-items">
+          <img src="download (1).png (1).png" alt="client" />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="h-primary center">Contact Us</h1>
+      <div id="contact-box">
+        <form action="/contact", method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">E-Mail</label>
+            <input
+              type="email"
+              name="email"
+              id="name"
+              placeholder="Enter Your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Phone-Number</label>
+            <input
+              type="phone"
+              name="phone"
+              id="name"
+              placeholder="Enter Your Phone"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Message</label>
+            <textarea
+              name="Message"
+              id="Message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="center">
+        copyright &copy; www.firerestaurant.com. All rights reserved
+      </div>
+    </footer>
+  </body>
+</html>
